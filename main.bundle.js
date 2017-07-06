@@ -1,37 +1,6 @@
 webpackJsonp([1,4],{
 
-/***/ 100:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SummaryComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-var SummaryComponent = (function () {
-    function SummaryComponent() {
-        this.workLocation = 'DuPont Pioneer - Des Moines, IA';
-    }
-    return SummaryComponent;
-}());
-SummaryComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Component */])({
-        selector: 'app-summary',
-        template: __webpack_require__(339),
-        styles: [__webpack_require__(329), __webpack_require__(46)]
-    })
-], SummaryComponent);
-
-//# sourceMappingURL=summary.component.js.map
-
-/***/ }),
-
-/***/ 154:
+/***/ 153:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -40,18 +9,18 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 154;
+webpackEmptyContext.id = 153;
 
 
 /***/ }),
 
-/***/ 155:
+/***/ 154:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(162);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(171);
 
@@ -70,7 +39,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_material__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_material__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyMaterialModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -102,12 +71,12 @@ MyMaterialModule = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contactMe_component__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__education_education_component__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__experience_experience_component__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__interests_interests_component__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__summary_summary_component__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contactMe_component__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__education_education_component__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__experience_experience_component__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__interests_interests_component__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__summary_summary_component__ = __webpack_require__(99);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 /* unused harmony export routedComponents */
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -146,7 +115,7 @@ var routes = [
         component: __WEBPACK_IMPORTED_MODULE_3__education_education_component__["a" /* EducationComponent */]
     },
     {
-        path: 'baratheon/:height/:width',
+        path: 'baratheon',
         component: __WEBPACK_IMPORTED_MODULE_5__interests_interests_component__["a" /* InterestsComponent */]
     }
 ];
@@ -157,8 +126,8 @@ var AppRoutingModule = (function () {
 }());
 AppRoutingModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */].forRoot(routes)],
-        exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* RouterModule */]]
+        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */].forRoot(routes)],
+        exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* RouterModule */]]
     })
 ], AppRoutingModule);
 
@@ -196,7 +165,7 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ViewChild */])('activeRoute'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* ViewChild */])('activeRoute'),
     __metadata("design:type", Object)
 ], AppComponent.prototype, "activeRoute", void 0);
 AppComponent = __decorate([
@@ -217,18 +186,18 @@ AppComponent = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_animations__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_router_module__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_material_module__ = __webpack_require__(165);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__contact_contactMe_component__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__education_education_component__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__experience_experience_component__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__interests_interests_component__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__summary_summary_component__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__contact_contactMe_component__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__education_education_component__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__experience_experience_component__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__interests_interests_component__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__summary_summary_component__ = __webpack_require__(99);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -316,7 +285,7 @@ var ContactService = (function () {
     return ContactService;
 }());
 ContactService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Injectable */])(),
     __metadata("design:paramtypes", [])
 ], ContactService);
 
@@ -329,9 +298,9 @@ ContactService = __decorate([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return InterestsService; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Position; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return StyleObj; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InterestsService; });
+/* unused harmony export Position */
+/* unused harmony export StyleObj */
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -425,7 +394,7 @@ var InterestsService = (function () {
     return InterestsService;
 }());
 InterestsService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Injectable */])(),
     __metadata("design:paramtypes", [])
 ], InterestsService);
 
@@ -524,7 +493,7 @@ exports = module.exports = __webpack_require__(20)();
 
 
 // module
-exports.push([module.i, ":host, .skills-list {\r\n  display: block;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.skills-list .list-section {\r\n    padding: 0;\r\n    margin: 0;            \r\n    text-align: left;\r\n    color: #666666;\r\n    position: relative;\r\n}\r\n.skills-list .list-section .my-skills {\r\n    width: 50px;\r\n    height:50px;\r\n    padding: 10px;\r\n    list-style-type: none;\r\n    float: left;\r\n    transition: top 800ms linear, left 800ms linear;\r\n}", ""]);
+exports.push([module.i, "/*:host, .skills-list {\r\n  display: block;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.skills-list .list-section {\r\n    padding: 0;\r\n    margin: 0;            \r\n    text-align: left;\r\n    color: #666666;\r\n    position: relative;\r\n}\r\n.skills-list .list-section .my-skills {\r\n    width: 50px;\r\n    height:50px;\r\n    padding: 10px;\r\n    list-style-type: none;\r\n    float: left;\r\n    transition: top 800ms linear, left 800ms linear;\r\n}*/\r\n\r\n\r\n\r\n\r\n\r\n:host, .skills-list {\r\n    display: block;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.skills-list .list-section {\r\n    padding: 0;\r\n    margin: 0;            \r\n    text-align: left;\r\n    color: #666666;\r\n    position: relative;\r\n}\r\n\r\n.skills-list .list-section .my-skills {\r\n    width: 50px;\r\n    height:50px;\r\n    padding: 50px;\r\n    list-style-type: none;\r\n    float: left;\r\n}\r\n\r\n.skills-list .list-section .my-skills .skill-name {\r\n    font-size: 11px;\r\n    text-align: -webkit-center;\r\n}", ""]);
 
 // exports
 
@@ -555,7 +524,7 @@ module.exports = module.exports.toString();
 /***/ 334:
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"assets/got.jpg\" style=\"position: fixed; opacity: 0.3; height: 100%; width: 100%;\">\r\n<div class=\"my-portfolio layout-column\">\r\n    <div>\r\n        <div class=\"myName\">\r\n            <span>Ranga RR </span>\r\n            <span [ngStyle]=\"{'color': appColor}\">Eragamreddy</span>\r\n             <!--<span>Lorem</span>\r\n            <span [ngStyle]=\"{'color': appColor}\">Ipsumesrrs</span>-->\r\n        </div>\r\n    </div>\r\n    <div class=\"layout-column flex\">       \r\n        <div class=\"flex-20\" style=\"min-height: 100px;\">\r\n            <div [ngStyle]=\"{'color': appColor}\" class=\"layout-row layout-align-space-between-center\" style=\"height: 100%; width: 100%; border-bottom: 1px solid lightgrey;\">\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/house\" routerLinkActive=\"active\"> About </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/stark\" routerLinkActive=\"active\"> Experience </a>\r\n                <a md-raised-button class=\"my-button\" [routerLink]=\"['/baratheon',gridHeight, gridWidth]\" routerLinkActive=\"active\"> Skills </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/targeryn\" routerLinkActive=\"active\"> Education </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/lannister\" routerLinkActive=\"active\"> Contact </a>\r\n                <!--<a md-raised-button class=\"my-button\" routerLink=\"/house\" routerLinkActive=\"active\"> Lorem </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/stark\" routerLinkActive=\"active\"> Ipsum </a>\r\n                <a md-raised-button class=\"my-button\" [routerLink]=\"['/baratheon',gridHeight, gridWidth]\" routerLinkActive=\"active\"> Valkyre </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/targeryn\" routerLinkActive=\"active\"> Gyspe </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/lannister\" routerLinkActive=\"active\"> Waryie </a>-->\r\n            </div>\r\n        </div>\r\n        <div #activeRoute class=\"flex\">\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n        <!--<div class=\"flex-10\">\r\n            <app-connect style=\"height: 100%\"></app-connect>\r\n        </div>-->\r\n    </div>\r\n</div>"
+module.exports = "<img src=\"assets/got.jpg\" style=\"position: fixed; opacity: 0.3; height: 100%; width: 100%;\">\r\n<div class=\"my-portfolio layout-column\">\r\n    <div>\r\n        <div class=\"myName\">\r\n            <span>Ranga RR </span>\r\n            <span [ngStyle]=\"{'color': appColor}\">Eragamreddy</span>\r\n        </div>\r\n    </div>\r\n    <div class=\"layout-column flex\">       \r\n        <div class=\"flex-20\" style=\"min-height: 100px;\">\r\n            <div [ngStyle]=\"{'color': appColor}\" class=\"layout-row layout-align-space-between-center\" style=\"height: 100%; width: 100%; border-bottom: 1px solid lightgrey;\">\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/house\" routerLinkActive=\"active\"> About </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/stark\" routerLinkActive=\"active\"> Experience </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/baratheon\" routerLinkActive=\"active\"> Skills </a>\r\n                <!--<a md-raised-button class=\"my-button\" [routerLink]=\"['/baratheon',gridHeight, gridWidth]\" routerLinkActive=\"active\"> Skills </a>-->\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/targeryn\" routerLinkActive=\"active\"> Education </a>\r\n                <a md-raised-button class=\"my-button\" routerLink=\"/lannister\" routerLinkActive=\"active\"> Contact </a>\r\n            </div>\r\n        </div>\r\n        <div #activeRoute class=\"flex\">\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
@@ -576,14 +545,14 @@ module.exports = "<div class=\"education-details layout-column layout-align-spac
 /***/ 337:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"experience-details layout-column layout-align-space-around-start\">\r\n    <div class=\"eachSection\">\r\n        <div class=\"layout-row\">\r\n            <span class=\"headerSection flex\">\r\n                DuPont Pioneer\r\n            </span>\r\n            <span class=\"headerSubSection\">\r\n                July 2015 - Present\r\n            </span>\r\n        </div>        \r\n        <div class=\"contentSection layout-column\">\r\n            <div class=\"subSection\">\r\n                <span>What I do</span><br />\r\n                <div style=\"padding-left: 10px;\">\r\n                    <span style=\"font-size: 15px;\"> Front end </span>\r\n                    <ul class=\"dashed\">\r\n                        <li>Designing interactive and dynamic applications for Pioneer Encirca<sup>&#174;</sup> Services \r\n                        </li>\r\n                        <li>Implementing responsive UI's for increased user-interaction in various devices </li>\r\n                        <li>Developing and running the front-end code base with Typescript and AngularJS</li>\r\n                        <li>Maintaining the software with management tools like Gitlab and Artifactory </li>\r\n                        <li>Integration testing the website during development for usability and bug fixes</li>\r\n                        <li>Practicing SAFe 4.0 (Scaled Agile Framework) methodology for the overall workflow </li>\r\n                    </ul>\r\n                    <span style=\"font-size: 15px;\"> Back end </span>\r\n                    <ul class=\"dashed\">\r\n                        <li>Writing Python code to integrate with RESTful APIs</li>\r\n                        <li>Using SQLAlchemy for mapping database to Python classes</li>\r\n                    </ul>\r\n                </div>                \r\n                <span>What I use</span><br />\r\n                <ul class=\"dashed\">\r\n                    <li> HTML5, CSS3, Javascript, Typescript, AngularJS 1.x.y, Angular Material 1.x.y, LeafletJS, Highcharts, Nvd3, D3\r\n                    </li>\r\n                    <li>Python, SQLAlchemy, Alembic, PostgreSQL</li>       \r\n                    <li>NPM, Bower, JSPM, Webpack, Grunt, Gulp</li>  \r\n                    <li>Microsoft Visual Studio, Microsoft VS Code, Webstorm, PyCharm, DataGrip</li>          \r\n                </ul>\r\n                <span>What I develop</span><br />\r\n                <ul class=\"dashed\">                    \r\n                    <li><a href=\"https://fieldplanner.encirca.pioneer.com\" target=\"_blank\" class=\"exp-links\">Encirca Field Planner</a></li>             \r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"eachSection\">\r\n        <div class=\"layout-row\">\r\n            <span class=\"headerSection flex\">\r\n                Parity Systems Pvt. Ltd.\r\n            </span>\r\n            <span class=\"headerSubSection\">\r\n                Aug 2011 - Mar 2013\r\n            </span>\r\n        </div>        \r\n        <div class=\"contentSection layout-column\">\r\n            <div class=\"subSection\">\r\n                <span>What I did</span><br />\r\n                <ul class=\"dashed\">\r\n                    <li>Assisted in development and maintainence of Parity System website</li>\r\n                    <li>Implemented the client side validation code in JS and Jquery framework </li>\r\n                </ul>\r\n                <span>What I used</span><br />\r\n                <ul class=\"dashed\">\r\n                    <li> HTML, CSS, Javascript, JQuery, Bootstrap, AJAX\r\n                    </li>            \r\n                </ul>\r\n                <span>What I developed</span><br />\r\n                <ul class=\"dashed\">                    \r\n                    <li><a href=\"http://www.parity.co.in\" target=\"_blank\" class=\"exp-links\">Parity Systems Pvt Ltd</a></li>             \r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>"
+module.exports = "<div class=\"experience-details layout-column layout-align-space-around-start\">\r\n    <div class=\"eachSection\">\r\n        <div class=\"layout-row\">\r\n            <span class=\"headerSection flex\">\r\n                DuPont Pioneer\r\n            </span>\r\n            <span class=\"headerSubSection\">\r\n                July 2015 - Present\r\n            </span>\r\n        </div>        \r\n        <div class=\"contentSection layout-column\">\r\n            <div class=\"subSection\">\r\n                <span>What I do</span><br />\r\n                <div style=\"padding-left: 10px;\">\r\n                    <span style=\"font-size: 15px;\"> Front end </span>\r\n                    <ul class=\"dashed\">\r\n                        <li>Designing interactive and dynamic applications for Pioneer Encirca<sup>&#174;</sup> Services \r\n                        </li>\r\n                        <li>Implementing responsive UI's for increased user-interaction in various devices </li>\r\n                        <li>Developing and running the front-end code base with Typescript and AngularJS</li>\r\n                        <li>Maintaining the software with management tools like Gitlab and Artifactory </li>\r\n                        <li>Integration testing the website during development for usability and bug fixes</li>\r\n                        <li>Practicing SAFe 4.0 (Scaled Agile Framework) methodology for the overall workflow </li>\r\n                    </ul>\r\n                    <span style=\"font-size: 15px;\"> Back end </span>\r\n                    <ul class=\"dashed\">\r\n                        <li>Writing Python code to integrate with RESTful APIs</li>\r\n                        <li>Using SQLAlchemy for mapping database to Python classes</li>\r\n                    </ul>\r\n                </div>                \r\n                <span>What I use</span><br />\r\n                <ul class=\"dashed\">\r\n                    <li> HTML5, CSS3, Javascript, Typescript, AngularJS 1.x.y, Angular Material 1.x.y, LeafletJS, Highcharts, Nvd3, D3, DevExtreme\r\n                    </li>\r\n                    <li>Python, SQLAlchemy, Alembic, PostgreSQL</li>       \r\n                    <li>NPM, Bower, JSPM, Webpack, Grunt, Gulp</li>  \r\n                    <li>Microsoft Visual Studio, Microsoft VS Code, Webstorm, PyCharm, DataGrip</li>          \r\n                </ul>\r\n                <span>What I develop</span><br />\r\n                <ul class=\"dashed\">                    \r\n                    <li><a href=\"https://fieldplanner.encirca.pioneer.com\" target=\"_blank\" class=\"exp-links\">Encirca Field Planner</a></li>             \r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"eachSection\">\r\n        <div class=\"layout-row\">\r\n            <span class=\"headerSection flex\">\r\n                Parity Systems Pvt. Ltd.\r\n            </span>\r\n            <span class=\"headerSubSection\">\r\n                Aug 2011 - Mar 2013\r\n            </span>\r\n        </div>        \r\n        <div class=\"contentSection layout-column\">\r\n            <div class=\"subSection\">\r\n                <span>What I did</span><br />\r\n                <ul class=\"dashed\">\r\n                    <li>Assisted in development and maintainence of Parity System website</li>\r\n                    <li>Implemented the client side validation code in JS and Jquery framework </li>\r\n                </ul>\r\n                <span>What I used</span><br />\r\n                <ul class=\"dashed\">\r\n                    <li> HTML, CSS, Javascript, JQuery, Bootstrap, AJAX\r\n                    </li>            \r\n                </ul>\r\n                <span>What I developed</span><br />\r\n                <ul class=\"dashed\">                    \r\n                    <li><a href=\"http://www.parity.co.in\" target=\"_blank\" class=\"exp-links\">Parity Systems Pvt Ltd</a></li>             \r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
 /***/ 338:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"skills-list\">\r\n    <ul class=\"list-section\">\r\n        <li class='my-skills' [ngStyle]=\"htmlLogoPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/HTML5_Logo_512.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"cssPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/css3.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"javaScriptPosition\">\r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/javascript.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"typescriptPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/typescript.svg\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"jqueryPosition\">\r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/jquery.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"angularLogoPosition\">\r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/angular-logo.svg\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"bootstrapPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/bootstrap.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"materialLogoPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/angularmaterial.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"githubLogoPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/github-icon.svg\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"pythonPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/python.png\">\r\n        </li>\r\n    </ul>\r\n</div>"
+module.exports = "<!--<div class=\"skills-list\">\r\n    <ul class=\"list-section\">\r\n        <li class='my-skills' [ngStyle]=\"htmlLogoPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/HTML5_Logo_512.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"cssPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/css3.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"javaScriptPosition\">\r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/javascript.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"typescriptPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/typescript.svg\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"jqueryPosition\">\r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/jquery.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"angularLogoPosition\">\r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/angular-logo.svg\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"bootstrapPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/bootstrap.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"materialLogoPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/angularmaterial.png\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"githubLogoPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/github-icon.svg\">\r\n        </li>\r\n        <li class='my-skills' [ngStyle]=\"pythonPosition\"> \r\n            <img [ngStyle]=\"customDimensions\" src=\"assets/python.png\">\r\n        </li>\r\n    </ul>\r\n</div>-->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"skills-list\">\r\n    <ul class=\"list-section\">\r\n        <li class='my-skills' *ngFor=\"let skill of skills;\"> \r\n            <img [ngStyle]=\"customDimensions\" src= {{skill.icon}} >\r\n            <div class=\"skill-name\">{{skill.name}}</div>\r\n        </li>\r\n    </ul>\r\n</div>"
 
 /***/ }),
 
@@ -597,7 +566,7 @@ module.exports = "<div class=\"app-summary layout-row layout-align-space-around-
 /***/ 394:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(155);
+module.exports = __webpack_require__(154);
 
 
 /***/ }),
@@ -620,7 +589,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 96:
+/***/ 95:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -691,7 +660,7 @@ var _a;
 
 /***/ }),
 
-/***/ 97:
+/***/ 96:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -743,7 +712,7 @@ EducationComponent = __decorate([
 
 /***/ }),
 
-/***/ 98:
+/***/ 97:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -773,14 +742,16 @@ ExperienceComponent = __decorate([
 
 /***/ }),
 
-/***/ 99:
+/***/ 98:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__interests_service__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__interests_service__ = __webpack_require__(170);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InterestsComponent; });
+// import { Component, OnInit, OnDestroy } from '@angular/core';
+// import { ActivatedRoute } from '@angular/router';
+// import { InterestsService, StyleObj, Position } from './interests.service';
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -790,53 +761,112 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
+// @Component({
+//   selector: 'app-interests',
+//   templateUrl: './interests.html',
+//   styleUrls: ['./interests.css'],
+//   providers: [InterestsService]
+// })
+// export class InterestsComponent implements OnInit, OnDestroy {
+//     customHeight = 50;
+//     customWidth = 50;
+//     customDimensions = { 'height': this.customHeight + 'px', 'width': this.customWidth + 'px' };
+//     position: Position = new Position();
+//     intervalId: any;
+//     data: StyleObj = new StyleObj();
+//     //Icon positions
+//     angularLogoPosition: Position = new Position();
+//     githubLogoPosition: Position = new Position();
+//     materialLogoPosition: Position = new Position();
+//     htmlLogoPosition: Position = new Position();
+//     cssPosition: Position = new Position();
+//     javaScriptPosition: Position = new Position();
+//     jqueryPosition: Position = new Position();
+//     bootstrapPosition: Position = new Position();
+//     pythonPosition: Position = new Position();
+//     typescriptPosition: Position = new Position();
+//     logoPositionCollection: Position[] = [
+//         this.htmlLogoPosition,
+//         this.cssPosition,
+//         this.javaScriptPosition,
+//         this.typescriptPosition,
+//         this.jqueryPosition,
+//         this.angularLogoPosition,
+//         this.bootstrapPosition,
+//         this.materialLogoPosition,
+//         this.githubLogoPosition,
+//         this.pythonPosition
+//     ];
+//     constructor(private route: ActivatedRoute, private _interestsService: InterestsService) {}   
+//     ngOnInit(): void {
+//         this.data.height = this.route.snapshot.params.height;
+//         this.data.width = this.route.snapshot.params.width;
+//         this.intervalId = setInterval(() => {
+//             this.logoPositionCollection = this._interestsService.getRandomStyles(this.logoPositionCollection, this.data.height, this.data.width);
+//         }, 1000);
+//     }
+//     ngOnDestroy(): void {
+//         clearInterval(this.intervalId);
+//     }
+// }
 
 
 var InterestsComponent = (function () {
-    function InterestsComponent(route, _interestsService) {
-        this.route = route;
-        this._interestsService = _interestsService;
+    function InterestsComponent() {
         this.customHeight = 50;
         this.customWidth = 50;
         this.customDimensions = { 'height': this.customHeight + 'px', 'width': this.customWidth + 'px' };
-        this.position = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.data = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["b" /* StyleObj */]();
-        //Icon positions
-        this.angularLogoPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.githubLogoPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.materialLogoPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.htmlLogoPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.cssPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.javaScriptPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.jqueryPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.bootstrapPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.pythonPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.typescriptPosition = new __WEBPACK_IMPORTED_MODULE_2__interests_service__["a" /* Position */]();
-        this.logoPositionCollection = [
-            this.htmlLogoPosition,
-            this.cssPosition,
-            this.javaScriptPosition,
-            this.typescriptPosition,
-            this.jqueryPosition,
-            this.angularLogoPosition,
-            this.bootstrapPosition,
-            this.materialLogoPosition,
-            this.githubLogoPosition,
-            this.pythonPosition
-        ];
+        this.skills = [];
+        this.skills.push({
+            "name": "HTML 5",
+            "icon": "assets/HTML5_Logo_512.png"
+        }, {
+            "name": "CSS 3",
+            "icon": "assets/css3.png"
+        }, {
+            "name": "JavaScript",
+            "icon": "assets/javascript.png"
+        }, {
+            "name": "TypeScript",
+            "icon": "assets/typescript.png"
+        }, {
+            "name": "jQuery",
+            "icon": "assets/jquery.png"
+        }, {
+            "name": "AngularJS / Angular",
+            "icon": "assets/angular-logo.svg"
+        }, {
+            "name": "Bootstrap",
+            "icon": "assets/bootstrap.png"
+        }, {
+            "name": "Angular Material",
+            "icon": "assets/angularmaterial.png"
+        }, {
+            "name": "C#",
+            "icon": "assets/c-sharp.png"
+        }, {
+            "name": "Java",
+            "icon": "assets/java.png"
+        }, {
+            "name": "Python",
+            "icon": "assets/python.png"
+        }, {
+            "name": "MySQL",
+            "icon": "assets/mysql.png"
+        }, {
+            "name": "PostgreSQL",
+            "icon": "assets/postgresql.png"
+        }, {
+            "name": "SQL Alchemy",
+            "icon": "assets/sqlalchemy.png"
+        }, {
+            "name": "DevExpress",
+            "icon": "assets/dx.jpg"
+        }, {
+            "name": "Github",
+            "icon": "assets/github-icon.svg"
+        });
     }
-    InterestsComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.data.height = this.route.snapshot.params.height;
-        this.data.width = this.route.snapshot.params.width;
-        this.intervalId = setInterval(function () {
-            _this.logoPositionCollection = _this._interestsService.getRandomStyles(_this.logoPositionCollection, _this.data.height, _this.data.width);
-        }, 1000);
-    };
-    InterestsComponent.prototype.ngOnDestroy = function () {
-        clearInterval(this.intervalId);
-    };
     return InterestsComponent;
 }());
 InterestsComponent = __decorate([
@@ -844,13 +874,43 @@ InterestsComponent = __decorate([
         selector: 'app-interests',
         template: __webpack_require__(338),
         styles: [__webpack_require__(328)],
-        providers: [__WEBPACK_IMPORTED_MODULE_2__interests_service__["c" /* InterestsService */]]
+        providers: [__WEBPACK_IMPORTED_MODULE_1__interests_service__["a" /* InterestsService */]]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__interests_service__["c" /* InterestsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__interests_service__["c" /* InterestsService */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [])
 ], InterestsComponent);
 
-var _a, _b;
 //# sourceMappingURL=interests.component.js.map
+
+/***/ }),
+
+/***/ 99:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(5);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SummaryComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var SummaryComponent = (function () {
+    function SummaryComponent() {
+        this.workLocation = 'DuPont Pioneer - Des Moines, IA';
+    }
+    return SummaryComponent;
+}());
+SummaryComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Component */])({
+        selector: 'app-summary',
+        template: __webpack_require__(339),
+        styles: [__webpack_require__(329), __webpack_require__(46)]
+    })
+], SummaryComponent);
+
+//# sourceMappingURL=summary.component.js.map
 
 /***/ })
 
